@@ -11,7 +11,7 @@ class VoteTest < ActiveSupport::TestCase
   end
 
   test "create vote" do
-    a=Vote.create!(name: "Biggie", hometown: "Brooklyn", district: "NY", party: "Playas")
-    assert_equal a.name, "Biggie"
+    a=Vote.create!(candidate_id: 1, voter_id: 1)
+    assert_equal a.voter_id, 1
   end
 end
