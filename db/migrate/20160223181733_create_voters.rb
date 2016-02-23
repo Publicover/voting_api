@@ -1,7 +1,6 @@
 class CreateVoters < ActiveRecord::Migration
   def change
     create_table :voters do |t|
-      t.integer :id
       t.integer :candidate_id
       t.string :name
       t.string :party
