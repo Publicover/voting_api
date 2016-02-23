@@ -6,6 +6,6 @@ one:
   candidate_id: 1
 
 two:
-  id: 1
+  id: 2
   voter_id: 1
   candidate_id: 1

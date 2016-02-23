@@ -1,4 +1,5 @@
 require 'test_helper'
+require 'minitest/pride'
 
 class CandidateTest < ActiveSupport::TestCase
   test "the truth" do
@@ -10,7 +11,7 @@ class CandidateTest < ActiveSupport::TestCase
   end
 
   test "create candidate" do
-    a = Candidate.create!(name: "Biggie", hometown: "Brooklyn", district: "NY", party: "Playas")
+    a=Candidate.create!(name: "Biggie", hometown: "Brooklyn", district: "NY", party: "Playas")
     assert_equal a.name, "Biggie"
   end
 end
