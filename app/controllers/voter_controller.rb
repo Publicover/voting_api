@@ -5,7 +5,7 @@ class VoterController < ApplicationController
 
   def show
     id = params["id"]
-    render json: Voter.find(id)
+    render json: Voter.first
   end
 
   def create

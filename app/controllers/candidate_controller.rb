@@ -5,7 +5,7 @@ class CandidateController < ApplicationController
 
   def show
     id = params["id"]
-    render json: Candidate.find(id)
+    render json: Candidate.first
   end
 
   def create
