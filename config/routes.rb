@@ -1,4 +1,22 @@
 Rails.application.routes.draw do
+  get 'voter/index'
+
+  get 'voter/show'
+
+  get 'voter/create'
+
+  get 'vote/index'
+
+  get 'vote/show'
+
+  get 'vote/create'
+
+  get 'candidate/index'
+
+  get 'candidate/show'
+
+  get 'candidate/create'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
